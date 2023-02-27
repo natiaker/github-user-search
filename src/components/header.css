@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222731;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+.mode-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.mode-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+}
+
+.header-dark-mode {
+  color: white;
+}

@@ -1,0 +1,112 @@
+.dark-background {
+  background-color: #141d2f;
+  width: 100vw;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 327px;
+  margin: 0 auto;
+}
+
+/* Form  */
+form {
+  position: relative;
+}
+
+input {
+  background-color: #fefefe;
+  background-image: url(./assets/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 4%;
+  border: none;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  border-radius: 15px;
+  width: 327px;
+  height: 60px;
+  padding: 22px;
+  padding-left: 45px;
+  margin: 30px 0;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #222731;
+}
+
+input::placeholder {
+  color: #4b6a9b;
+}
+
+.input-dark-mode {
+  color: white;
+  background-color: #1e2a47;
+  box-shadow: none;
+}
+
+.input-dark-mode::placeholder {
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: #60abff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 24px;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.error {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 573px;
+    padding-top: 50px;
+  }
+
+  input {
+    width: 573px;
+    height: 69px;
+    padding-left: 80px;
+  }
+
+  button {
+    top: 40px;
+  }
+
+  .error {
+    position: absolute;
+    top: 53px;
+    right: 140px;
+    color: #f74646;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .App {
+    width: 730px;
+  }
+
+  input {
+    width: 730px;
+    height: 69px;
+  }
+}
