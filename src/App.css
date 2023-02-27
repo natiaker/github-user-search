@@ -35,7 +35,7 @@ input {
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 25px;
   color: #222731;
 }
@@ -83,6 +83,7 @@ button {
     width: 573px;
     height: 69px;
     padding-left: 80px;
+    font-size: 18px;
   }
 
   button {
@@ -90,6 +91,7 @@ button {
   }
 
   .error {
+    display: inline;
     position: absolute;
     top: 53px;
     right: 140px;

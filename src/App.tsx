@@ -49,10 +49,10 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className={`App ${isDark && "dark-background"}`}>
+      <div className={`${isDark && "dark-background"}`}>
         <h1
           className={`${isDark && "result-dark-mode-color"}`}
-          style={{ marginTop: "100px" }}
+          style={{ paddingTop: "100px", height: "100vh", textAlign: "center" }}
         >
           Loading...
         </h1>
